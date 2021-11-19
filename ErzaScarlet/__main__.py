@@ -211,6 +211,11 @@ def start(update: Update, context: CallbackContext):
                                     context.bot.username,
                                 ),
                             ),
+                             InlineKeyboardButton(
+                                text="Support Group",
+                                url=f"https://t.me/{SUPPORT_CHAT}",
+                                ),
+                            ),
                             InlineKeyboardButton(
                                 text="Support Group",
                                 url=f"https://t.me/{SUPPORT_CHAT}",
